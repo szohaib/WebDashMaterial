@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Web Dash</title>
+        <meta charset="UTF-8">
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    </head>
+    <style>
+      
+        @media (min-width: 768px) {
+ .c1{
+            position: absolute;
+            left: 320px;
+            height: 420px;
+            width: 570px;
+        }
+        
+        .c2{
+            position: absolute;
+            left: 920px;
+            height: 420px;
+            width: 570px;
+        }
+        
+        .c3{
+            position: absolute;
+            top: 500px;
+            left: 320px;
+            height: 420px;
+            width: 570px;
+        }
+         .c4{
+            position: absolute;
+            top: 500px;
+            left: 920px;
+            height: 420px;
+            width: 570px;
+        }
+        }
+       
+        
+        .side-nav{
+            position: fixed;
+            top: 65px;
+        }
+        
+
+        
+</style>
+		
+	
+    <body>
+       
+        <div class="navbar-fixed">
+  <nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">BITCOIN</a>
+        
+        <div>
+            
+            <ul id="slide-out" class="side-nav fixed" >
+                
+                <li><a href="#!" class="waves-effect">Dashboard<i class="material-icons right">equalizer</i></a></li>
+                <li><div class="divider"></div></li>
+    <li><a href="#!" class="waves-effect">Buy/Sell<i class="material-icons right">payment</i></a></li>
+    <li><div class="divider"></div></li>
+   
+    <li><a class="waves-effect" href="#!">Send/Request<i class="material-icons right">email</i></a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="waves-effect" href="#!">Accounts<i class="material-icons right">perm_identity</i></a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="waves-effect" href="#!">Tools<i class="material-icons right">lock_open</i></a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="waves-effect" href="#!">Settings<i class="material-icons right">settings</i></a></li>
+  </ul>
+  <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+        
+            
+        </div>
+    </div>
+        </div>
+        
+         <div class="row">
+             
+             
+      <div class="col s12 m6 l5">
+        <div class="card-panel white  c1">
+          <span class="white-text">
+          </span>
+        </div>
+      </div>
+             
+             <div class="col s12 m6 l5">
+        <div class="card-panel white c2">
+          <span class="white-text">
+          </span>
+        </div>
+      </div>
+    </div>
+        
+        <div class="row">
+             
+             
+      <div class="col s12 m6 l5">
+        <div class="card-panel white c3">
+          <span class="white-text">
+          </span>
+        </div>
+      </div>
+             
+             <div class="col s12 m6 l5">
+        <div class="card-panel white c4">
+            <span class="white-text">
+          </span>
+        </div>
+      </div>
+    </div>
+            
+            
+       
+      
+        
+    </body>
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      
+      
+      <script>
+       
+  
+  $('.button-collapse').sideNav({
+      menuWidth: 300, 
+      edge: 'left', 
+      closeOnClick: true, 
+      draggable: false
+    }
+  );
+
+        </script>
+    
+</html>
