@@ -15,14 +15,16 @@ and open the template in the editor.
     </head>
     <style>
       
-      
+        
 
         @media (min-width: 768px) {
+         
  .c1{
             position: absolute;
             left: 320px;
             height: 420px;
             width: 500px;
+            box-shadow: 1px 1px 8px 0px #888;
         }
         
         .c2{
@@ -30,6 +32,7 @@ and open the template in the editor.
             left: 830px;
             height: 420px;
             width: 500px;
+             box-shadow: 1px 1px 8px 0px #888;
         }
         
         .c3{
@@ -38,6 +41,7 @@ and open the template in the editor.
             left: 320px;
             height: 420px;
             width: 500px;
+             box-shadow: 1px 1px 8px 0px #888;
         }
          .c4{
             position: absolute;
@@ -45,15 +49,19 @@ and open the template in the editor.
             left: 830px;
             height: 420px;
             width: 500px;
-        }
+             box-shadow: 1px 1px 8px 0px #888;
         }
        
-        
+        }
+       
+         
         .side-nav{
             position: fixed;
             top: 65px;
+            
         }
         
+     
 
         
 </style>
@@ -69,6 +77,7 @@ and open the template in the editor.
             
             <ul id="slide-out" class="side-nav fixed" >
                 
+                
                 <li><a href="#!" class="waves-effect">Dashboard<i class="material-icons right">equalizer</i></a></li>
                 <li><div class="divider"></div></li>
     <li><a href="#!" class="waves-effect">Buy/Sell<i class="material-icons right">payment</i></a></li>
@@ -83,8 +92,8 @@ and open the template in the editor.
     <li><a class="waves-effect" href="#!">Settings<i class="material-icons right">settings</i></a></li>
   </ul>
   <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+               
         
-            
         </div>
     </div>
         </div>
@@ -126,7 +135,7 @@ and open the template in the editor.
     </div>
             
             
-       
+
       
         
     </body>
@@ -137,11 +146,15 @@ and open the template in the editor.
       <script>
        
   
+
+
   $('.button-collapse').sideNav({
+      
       menuWidth: 300, 
       edge: 'left', 
       closeOnClick:false, 
       draggable: false
+      
     }
   );
 
