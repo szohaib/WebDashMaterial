@@ -9,14 +9,16 @@ and open the template in the editor.
         <title>Web Dash</title>
         <meta charset="UTF-8">
         <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
     </head>
     <style>
       
         
-
+      
+        
         @media (min-width: 768px) {
          
  .c1{
@@ -68,7 +70,7 @@ and open the template in the editor.
 		
 	
     <body>
-       
+       <div class="overlay">
         <div class="navbar-fixed">
   <nav class="light-blue lighten-1" role="navigation">
     <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">BITCOIN</a>
@@ -133,7 +135,7 @@ and open the template in the editor.
         </div>
       </div>
     </div>
-            
+      </div>      
             
 
       
@@ -146,17 +148,21 @@ and open the template in the editor.
       <script>
        
   
+ $( document ).ready(function(){
+     $('.button-collapse').sideNav();
+     
+ }); 
 
-
-  $('.button-collapse').sideNav({
-      
-      menuWidth: 300, 
-      edge: 'left', 
-      closeOnClick:false, 
-      draggable: false
-      
-    }
-  );
+//  $('.button-collapse').sideNav({
+//      
+//      menuWidth: 300, 
+//      edge: 'left', 
+//      closeOnClick:false, 
+//      draggable: false,
+//      
+//    }
+//  );
+  
 
         </script>
     
